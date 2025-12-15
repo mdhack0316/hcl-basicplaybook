@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  - name: Printing Some Msgs
+    debug: 
+      msg: "Hello Ansible Automation Platform"
